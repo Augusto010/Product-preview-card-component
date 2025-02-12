@@ -1,0 +1,130 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color:  hsl(30, 38%, 92%)
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 550px;
+    height: 400px;
+}
+
+.text{
+    margin: 20px 30px 30px 30px;
+}
+
+.perfume{
+    height: auto;
+    width: auto;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.h1{
+    font-family: "Fraunces", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    width: 200px;;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+.button{
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.button:hover{
+    background-color: hsl(212, 21%, 14%);
+    color: white;
+}
+
+.new{
+    font-family: "Fraunces", sans-serif;
+    color: hsl(158, 36%, 37%);
+    margin: 0px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.old{
+    text-decoration: line-through;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.carrinho{
+    margin-right: 10px;
+}
+
+.title{
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    text-align:left;
+    margin-bottom: 15px;
+}
+      
+.price{
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+
+/*mobile*/
+@media (max-width: 375px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: column;
+        height: 100%;
+        width: 350px;
+        margin-top: 15px;
+    }
+
+    .main{
+        height: auto;
+    }
+
+    .perfume{
+        border-radius: 10px 10px 0px 0px;
+        height: 280px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .text{
+        margin: 20px 30px 20px 30px;
+    } 
+
+    .h1{
+        width: 300px;
+    }
+
+    .attribution {margin-top: 30px;}
+}
