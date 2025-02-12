@@ -95,7 +95,7 @@ p{
 }
 
 /*mobile*/
-@media (max-width: 375px){
+@media (max-width: 414px){
     body{
         display: flex;
         flex-direction: column;
