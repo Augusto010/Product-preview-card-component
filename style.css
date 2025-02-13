@@ -17,16 +17,16 @@ body{
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
     width: 550px;
-    height: 400px;
+    height: 450px;
 }
 
 .text{
-    margin: 20px 30px 30px 30px;
+    margin: 20px 30px 0px 30px;
 }
 
 .perfume{
     height: auto;
-    width: auto;
+    width: 300px;
     border-radius: 10px 0px 0px 10px;
 }
 
